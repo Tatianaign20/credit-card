@@ -1,0 +1,119 @@
+.section__card__view {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 880px;
+    background-color: transparent;
+    box-shadow: #545454 0px 4px 12px 0px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.section__card__view__content {
+    width: 320px;
+    background-color: #649a56;
+    /* background: linear-gradient(135deg, #6c9b60, #649a56); */
+    background: linear-gradient(125deg, #6c9b60, green);
+    border-radius: 10px; /* Скругление углов */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+    font-family: 'Inter';
+}
+
+.card__view__content__images {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 30px;
+    background-color: transparent;
+}
+
+.card__view__content__images__folga {
+    width: 30px; /* Ширина прямоугольника */
+    height: 20px; /* Высота прямоугольника */
+    /* background: linear-gradient(135deg, #c0c0c0, #e6e6e6); Градиент от светло-серебристого к более темному */
+    background: linear-gradient(135deg, #f1f1f1, #aeaaaa);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 5px; /* Скругление углов */
+}
+
+.card__view__content__images__cardName {    
+    width: 30px;
+}
+
+.card__view__content__number {
+    display: block;
+    align-self: center;
+    width: 90%;
+    height: 20px;
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.card__view__content__number:hover {
+    cursor: pointer;
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    background-color: #8EB983;
+    box-sizing: border-box;
+}
+
+.card__view__content__info {
+    width: 90%;
+}
+.card__view__content__info__date-month {
+    width: min-content;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.card__view__content__info__date-month:hover {
+    cursor: pointer;
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    background-color: #8EB983;
+}
+
+.card__view__content__info__date-year {
+    width: min-content;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.card__view__content__info__date-year:hover {
+    cursor: pointer;
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    background-color: #8EB983;
+}
+
+.card__view__content__info__name_img {
+ display: flex;
+ justify-content: space-between;
+ background-color: transparent;
+}
+.card__view__content__info__name {
+    display: block;
+    align-self: center;
+    justify-content: center;
+    height: 20px;
+    box-sizing: border-box;
+}
+
+.card__view__content__info__name:hover {
+    cursor: pointer;
+    /* border: 1px solid #fff; */
+    border-radius: 5px;
+    background-color: #8EB983;
+}
+
+.card__view__content__info__img {
+    height: 30px;
+}
+
+

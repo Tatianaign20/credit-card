@@ -1,0 +1,60 @@
+.card__data {
+    background-color: rgba(93, 169, 200, 0.4);
+    height: 420px;
+    width: 500px;
+    margin-top: -30px;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.card__form__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    height: 400px;
+    width: 500px;
+    margin-top: 30px;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-family: 'Inter';
+}
+
+.card__form {
+    width: 90%;
+}
+
+.card__form__title {
+  color: rgba(0, 0, 0, .7);
+  font-weight: normal;
+}
+
+
+.card__form__date__cvv {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.card__form__date__cvv_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__input_type_card-month {
+    width: 120px;
+}
+
+.form__input_type_card-year {
+    width: 120px;
+}
+
+.form__input_type_card-cvv {
+    width: 120px;
+}
+.card__form__date__cvv_block_type_cvv {
+    margin-left: 40px;
+}

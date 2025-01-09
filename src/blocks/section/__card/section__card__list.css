@@ -1,0 +1,62 @@
+.section__card__list__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.card__description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+
+.card__delete-button {
+    width: 20px;
+    height: 20px;
+     background: transparent url('../../../images/delete-icon.svg') center no-repeat;
+    /* background-size: 18px 18px; */
+    border: none;
+    cursor: pointer;
+    /* top: 18px;
+    right: 15px;
+    padding: 0;
+    margin: 0;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s; */
+ }
+      
+.card__delete-button:hover {
+    opacity: 0.6;
+}
+
+.card__number {
+    width: 200px;
+}
+
+.card__name {
+    width: 250px;
+}
+
+.card__month {
+    width: 100px;
+}
+
+.card__year {    
+    width: 100px;
+}
+
+.card__cvv {
+    width: 100px;
+}
+      
