@@ -7,4 +7,4 @@
 ## Стек
 HTML, CSS, JavaScript.  
 ## Ссылка
-https://tatianaign20.github.io/Card/ 
+https://tatianaign20.github.io/credit-card/ 
